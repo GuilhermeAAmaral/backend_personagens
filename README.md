@@ -11,8 +11,11 @@ Rotas:
 //--------------------------------------------
 
 Criar personagem
+
 Método: Post
+
 URL: http://localhost:3003/criarPersonagem
+
 body: {
     "name": "Homem Aranha",
     "gender": "MALE",
@@ -22,13 +25,17 @@ body: {
 //--------------------------------------------
 
 Buscar todos os personagens
+
 Método: GET
+
 URL: http://localhost:3003/criarPersonagem
 
 //--------------------------------------------
 
 Excluir personagem
+
 Método: Delete
+
 URL: http://localhost:3003/deletarPersonagem/:id
 
 Path Params: id
@@ -36,8 +43,11 @@ Path Params: id
 //--------------------------------------------
 
 Buscar filmes que o personagem participou
+
 Método: GET
+
 URL: http://localhost:3003/filme/:id/Personagem
+
 Path Params: id
 
 
